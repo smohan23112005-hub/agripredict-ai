@@ -1,0 +1,170 @@
+export const translations = {
+  en: {
+    appTitle: "AgriPredict AI",
+    tagline: "Smart Crop Planning & Financial Risk Prediction System",
+    heroBadge: "AI-Powered Precision Farming For Andhra Pradesh",
+    navHome: "Planning Wizard",
+    navAnalysis: "Crop Recommendations",
+    navWeather: "Weather Intelligence",
+    navFinance: "Financial Estimator",
+    navReports: "Reports & Downloads",
+    demoDataBtn: "⚡ Load Sample Farm (Chittoor)",
+    farmPlanningTitle: "Farm Profile & Crop Planning",
+    farmerName: "Farmer Name",
+    state: "State",
+    district: "District",
+    mandal: "Mandal (Optional)",
+    landArea: "Land Area",
+    unit: "Unit",
+    acres: "Acres",
+    hectares: "Hectares",
+    soilType: "Soil Type",
+    irrigationType: "Irrigation Source",
+    season: "Farming Season",
+    previousCrop: "Previous Crop Cultivated",
+    budget: "Estimated Budget (₹)",
+    plannedSowingDate: "Planned Sowing Date",
+    analyzeBtn: "Analyze Farm & Run AI Predictions",
+    analyzing: "Analyzing 5-Yr Weather Patterns & ML Crop Models...",
+    
+    // Results
+    resultsTitle: "AI Farm Intelligence Dashboard",
+    topSuitability: "Top Recommended Crop",
+    overallRisk: "Weather Risk Level",
+    estProfit: "Estimated Net Profit",
+    breakEven: "Break-Even Price",
+    
+    // Tabs
+    tabCrops: "🌾 Crop Recommendations",
+    tabWeather: "🌦️ Weather & Historical Risk",
+    tabFinance: "💰 Financial & Yield Forecast",
+    tabReport: "📄 Executive Report",
+    
+    // Risk Levels
+    riskLow: "Low Risk",
+    riskModerate: "Moderate Risk",
+    riskHigh: "High Risk",
+    riskCritical: "Critical Risk",
+
+    // Crop details
+    suitabilityScore: "Suitability Match",
+    cropCategory: "Category",
+    duration: "Duration",
+    typicalYield: "Expected Yield",
+    sowingWindow: "Recommended Sowing Window",
+    whySuitable: "Why this crop is suitable",
+    risksIdentified: "Risk Factors to Monitor",
+    
+    // Weather
+    fiveYearTrends: "5-Year Historical Rainfall & Temperature",
+    currentWeather: "Live Conditions",
+    forecast7Day: "7-Day Forecast & Field Advisory",
+    temp: "Temperature",
+    humidity: "Humidity",
+    rainfall: "Annual Rainfall",
+    
+    // Finance
+    costBreakdown: "Estimated Cost Breakdown",
+    seeds: "Seeds & Nursery",
+    fertilizers: "Fertilizers & Nutrients",
+    pesticides: "Plant Protection",
+    labor: "Labor & Machinery",
+    irrigationCost: "Irrigation & Power",
+    harvesting: "Harvesting & Post-Harvest",
+    contingency: "Contingency / Miscellaneous",
+    totalCost: "Total Cultivation Cost",
+    grossRevenue: "Projected Gross Revenue",
+    netReturn: "Estimated Net Return",
+    roi: "Return on Investment (ROI)",
+    
+    // Actions
+    downloadPdf: "Download PDF Report",
+    downloadCsv: "Download CSV Summary",
+    newAnalysis: "Start New Analysis",
+    dataSources: "Data Sources & Methodology",
+  },
+  te: {
+    appTitle: "అగ్రిప్రిడిక్ట్ AI (AgriPredict AI)",
+    tagline: "స్మార్ట్ పంట ప్రణాళిక మరియు ఆర్థిక నష్ట అంచనా వ్యవస్థ",
+    heroBadge: "ఆంధ్రప్రదేశ్ రైతులకు కృత్రిమ మేధస్సు ఆధారిత వ్యవసాయ మార్గదర్శి",
+    navHome: "పంట ప్రణాళిక",
+    navAnalysis: "పంట సిఫార్సులు",
+    navWeather: "వాతావరణ విశ్లేషణ",
+    navFinance: "ఆదాయ వ్యయ అంచనాలు",
+    navReports: "నివేదికలు",
+    demoDataBtn: "⚡ నమూనా వ్యవసాయ వివరాలు (చిత్తూరు)",
+    farmPlanningTitle: "రైతు మరియు భూమి వివరాలు",
+    farmerName: "రైతు పేరు",
+    state: "రాష్ట్రం",
+    district: "జిల్లా",
+    mandal: "మండలం (ఐచ్ఛికం)",
+    landArea: "భూమి విస్తీర్ణం",
+    unit: "కొలత",
+    acres: "ఎకరాలు",
+    hectares: "హెక్టార్లు",
+    soilType: "నేల రకం",
+    irrigationType: "నీటిపారుదల వనరు",
+    season: "సాగు కాలం (సీజన్)",
+    previousCrop: "మునుపటి పంట",
+    budget: "అంచనా బడ్జెట్ (₹)",
+    plannedSowingDate: "విత్తే తేదీ",
+    analyzeBtn: "విశ్లేషించి పంట సిఫార్సులు పొందండి",
+    analyzing: "5 సంవత్సరాల వాతావరణ సమాచారం & AI మోడల్స్ ద్వారా విశ్లేషిస్తోంది...",
+    
+    // Results
+    resultsTitle: "AI వ్యవసాయ విశ్లేషణ డాష్‌బోర్డ్",
+    topSuitability: "అత్యంత అనుకూలమైన పంట",
+    overallRisk: "వాతావరణ ప్రమాద స్థాయి",
+    estProfit: "అంచనా నికర లాభం",
+    breakEven: "కనీస లాభదాయక ధర",
+    
+    // Tabs
+    tabCrops: "🌾 పంట సిఫార్సులు",
+    tabWeather: "🌦️ వాతావరణం & ముప్పు",
+    tabFinance: "💰 పెట్టుబడి & లాభాలు",
+    tabReport: "📄 సమగ్ర నివేదిక",
+    
+    // Risk Levels
+    riskLow: "తక్కువ ముప్పు (సురక్షితం)",
+    riskModerate: "మధ్యస్థ ముప్పు",
+    riskHigh: "అధిక ముప్పు",
+    riskCritical: "తీవ్రమైన ముప్పు",
+
+    // Crop details
+    suitabilityScore: "అనుకూలత శాతం",
+    cropCategory: "రకం",
+    duration: "పంట కాలపరిమితి",
+    typicalYield: "అంచనా దిగుబడి",
+    sowingWindow: "సిఫార్సు చేసిన విత్తే సమయం",
+    whySuitable: "ఈ పంట ఎందుకు అనుకూలం",
+    risksIdentified: "గమనించవలసిన ప్రమాదాలు",
+    
+    // Weather
+    fiveYearTrends: "5 సంవత్సరాల సగటు వర్షపాతం & ఉష్ణోగ్రత",
+    currentWeather: "ప్రస్తుత వాతావరణం",
+    forecast7Day: "రాబోయే 7 రోజుల వాతావరణ సూచన",
+    temp: "ఉష్ణోగ్రత",
+    humidity: "తేమ",
+    rainfall: "వార్షిక వర్షపాతం",
+    
+    // Finance
+    costBreakdown: "పెట్టుబడి ఖర్చుల వివరాలు",
+    seeds: "విత్తనాలు & నారు",
+    fertilizers: "ఎరువులు & పోషకాలు",
+    pesticides: "పురుగుమందులు",
+    labor: "కూలీలు & యంత్రాల ఖర్చు",
+    irrigationCost: "నీటిపారుదల & కరెంట్",
+    harvesting: "కోత & రవాణా ఖర్చులు",
+    contingency: "ఇతర అత్యవసర ఖర్చులు",
+    totalCost: "మొత్తం సాగు ఖర్చు",
+    grossRevenue: "మొత్తం రాబడి",
+    netReturn: "అంచనా నికర లాభం",
+    roi: "పెట్టుబడిపై రాబడి (ROI)",
+    
+    // Actions
+    downloadPdf: "PDF నివేదిక డౌన్‌లోడ్",
+    downloadCsv: "CSV వివరాలు డౌన్‌లోడ్",
+    newAnalysis: "కొత్త విశ్లేషణ",
+    dataSources: "సమాచార వనరులు & విధానం",
+  }
+};

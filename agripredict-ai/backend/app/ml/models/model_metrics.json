@@ -1,0 +1,109 @@
+{
+  "model_type": "Random Forest Classifier",
+  "n_estimators": 100,
+  "training_samples": 2400,
+  "test_samples": 600,
+  "accuracy": 0.59,
+  "features": [
+    "temperature",
+    "rainfall",
+    "humidity",
+    "ph",
+    "soil_type",
+    "season"
+  ],
+  "classes": [
+    "Bengal Gram",
+    "Black Gram",
+    "Chilli",
+    "Cotton",
+    "Groundnut",
+    "Jowar",
+    "Maize",
+    "Red Gram",
+    "Rice",
+    "Sunflower"
+  ],
+  "classification_report": {
+    "Bengal Gram": {
+      "precision": 0.9152542372881356,
+      "recall": 0.9,
+      "f1-score": 0.9075630252100839,
+      "support": 60.0
+    },
+    "Black Gram": {
+      "precision": 0.49122807017543857,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.4786324786324786,
+      "support": 60.0
+    },
+    "Chilli": {
+      "precision": 0.5230769230769231,
+      "recall": 0.5666666666666667,
+      "f1-score": 0.5439999999999999,
+      "support": 60.0
+    },
+    "Cotton": {
+      "precision": 0.5774647887323944,
+      "recall": 0.6833333333333333,
+      "f1-score": 0.6259541984732825,
+      "support": 60.0
+    },
+    "Groundnut": {
+      "precision": 0.6,
+      "recall": 0.45,
+      "f1-score": 0.5142857142857143,
+      "support": 60.0
+    },
+    "Jowar": {
+      "precision": 0.5348837209302325,
+      "recall": 0.38333333333333336,
+      "f1-score": 0.4466019417475728,
+      "support": 60.0
+    },
+    "Maize": {
+      "precision": 0.6521739130434783,
+      "recall": 0.5,
+      "f1-score": 0.5660377358490566,
+      "support": 60.0
+    },
+    "Red Gram": {
+      "precision": 0.39705882352941174,
+      "recall": 0.45,
+      "f1-score": 0.421875,
+      "support": 60.0
+    },
+    "Rice": {
+      "precision": 0.9818181818181818,
+      "recall": 0.9,
+      "f1-score": 0.9391304347826087,
+      "support": 60.0
+    },
+    "Sunflower": {
+      "precision": 0.3956043956043956,
+      "recall": 0.6,
+      "f1-score": 0.4768211920529801,
+      "support": 60.0
+    },
+    "accuracy": 0.59,
+    "macro avg": {
+      "precision": 0.6068563054198591,
+      "recall": 0.5900000000000001,
+      "f1-score": 0.5920901721033778,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.6068563054198591,
+      "recall": 0.59,
+      "f1-score": 0.5920901721033777,
+      "support": 600.0
+    }
+  },
+  "dataset_source": "Synthetic data based on AP crop agronomic requirements",
+  "limitations": [
+    "Trained on synthetic data - not validated against real field outcomes",
+    "Does not account for micro-climate variations",
+    "Soil chemistry beyond pH is not considered",
+    "Market and economic factors are not included"
+  ]
+}
